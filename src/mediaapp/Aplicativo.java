@@ -18,3 +18,11 @@ public class Aplicativo {
         System.out.println("Meu cachorro sabe somar: " + valorSomado);
     }
 }
+
+// SE VERDADEIRO e VERDADEIRO = VERDADEIRO
+// F = FALSO
+// E
+//
+// &&
+
+// OU ||

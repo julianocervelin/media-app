@@ -10,25 +10,15 @@ public class MediaNotasApp {
 
         MediaNotas mediaNotas = new MediaNotas();
 
-        final double MEDIA_MINIMA = 6.0;
-
-        final double MEDIA_MINIMA_RECUPERACAO = 4.0;
-
         double provaInicial = 8.5;
         double provaFinal = 3.5;
+        System.out.println("Digite sua nota de recuperacao");
         double recuperacao = sc.nextDouble();
 
         double resultado = mediaNotas.calcular(provaInicial, provaFinal, recuperacao);
         System.out.println(resultado);
 
-
-        if (resultado >= 6.0) {
-            System.out.println("APROVADO");
-        } else if (resultado < 6.0 && resultado >= 4.0) {
-            System.out.println("RECUPERACAO");
-        } else if (resultado < 4.0) {
-            System.out.println("REPROVADO");
-        }
+        mediaNotas.imprimeResultado(resultado);
     }
 
     // Se media aluno maior ou igual que 6 => APROVADO
