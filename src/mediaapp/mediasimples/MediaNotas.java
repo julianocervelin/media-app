@@ -16,12 +16,13 @@ public class MediaNotas {
     }
 
     public void imprimeResultado(double resultado) {
+
         if (resultado >= 6.0) {
-            System.out.println("APROVADO");
+            System.out.println(TipoResultado.APROVADO);
         } else if (resultado < 6.0 && resultado >= 4.0) {
-            System.out.println("RECUPERACAO");
+            System.out.println(TipoResultado.REPROVADO);
         } else if (resultado < 4.0) {
-            System.out.println("REPROVADO");
+            System.out.println(TipoResultado.RECUPERACAO);
         }
     }
 }

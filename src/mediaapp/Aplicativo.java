@@ -11,7 +11,7 @@ public class Aplicativo {
 
         Calculadora calculadoraTop = new Calculadora();
 
-        int valorSomado = calculadoraTop.somaDoisNumeros("3","2");
+        int valorSomado = calculadoraTop.somarDoisNumeros("3","2");
 
         System.out.println(torqueDaMordida);
 
