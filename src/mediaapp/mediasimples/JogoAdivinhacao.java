@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class JogoAdivinhacao {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         Random random = new Random();
-
         int numero = random.nextInt(1,11);
 
         while (true) {
@@ -21,7 +19,5 @@ public class JogoAdivinhacao {
             }
             System.out.println("Voce errou!");
         }
-
-
     }
 }
