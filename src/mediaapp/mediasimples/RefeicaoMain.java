@@ -36,7 +36,7 @@ public class RefeicaoMain {
         for (int indice = 0;
              indice < tamanhoArray;
              indice++) {
-            System.out.println(acompanhamentos[indice]);
+         //   System.out.println(acompanhamentos[indice]);
         }
 
         int indice = 0;
