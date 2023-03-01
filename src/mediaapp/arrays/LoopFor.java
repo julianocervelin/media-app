@@ -16,7 +16,7 @@ public class LoopFor {
 
         String[] arrayNomes = new String[quantidade];
 
-        for (var indice = 0; quantidade > indice; indice++) {
+        for (int indice = 0; quantidade > indice; indice++) {
             System.out.println("Deseja incluir mais um nome? S ou N");
             String sair = scanner.next();
             if ("N".equals(sair)) {

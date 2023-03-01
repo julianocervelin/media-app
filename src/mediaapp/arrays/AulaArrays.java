@@ -15,6 +15,26 @@ public class AulaArrays {
 
         String[] arrayNomes = new String[quantidade];
 
+        String[] meuArrayStrings = {"A" , "B" , "C"};
+
+        int[] meuArrayInteiro = {
+                9,
+                5,
+                2
+        };
+
+
+        String[][] meuDicionario = {
+                { "Abacate" , "Aveia"     , null  },
+                { "Boteco"  , "Bola"      , "Balde" },
+                { "Casa"    , "Coca-cola" , "Carro" },
+                { "Delta"   , "Domino"    , "Dado"  }
+        };
+
+
+
+
+
         int contador = 0;
         while (quantidade > contador) {
             System.out.println("Deseja incluir mais um nome? S ou N");
